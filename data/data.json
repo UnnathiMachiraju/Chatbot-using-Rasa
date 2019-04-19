@@ -1,0 +1,303 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "Hi there",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "ok bye",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "Where is Kabul situated?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Kabul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "In which country is Delhi located",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": " Delhi ",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Where is Sydney present?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Sydney",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Name the country in which Dhaka is there?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Dhaka",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Where is Chittagong located?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Chittagong",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Where is Herat?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Herat",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "In which country can I find Mumbai?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": " Mumbai",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Where can I find Berlin?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Berlin",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "I wonder where Mumbai is?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Where to locate Bazar?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Bazar",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Tell me where Bermbach is?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Bermbach",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "I want to locate Bangla",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Bangla",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Locate Jaipur for me",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Jaipur",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "What about Itanagar?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Itanagar",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Also tell me where Rana is",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Rana",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "What about Sutherland. Where is it?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Sutherland",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Now tell me the country where Kabi is",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "Kabi",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Do you know where Barisal is?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Barisal",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "In which country should I search for Comilla?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 37,
+            "end": 44,
+            "value": "Comilla",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Was wondering where Bernau is",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Bernau",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Wish someone could could tell me where Swan Hill is",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Swan Hill",
+            "entity": "city"
+          }
+        ]
+      }
+    ]
+  }
+}

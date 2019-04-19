@@ -1,0 +1,86 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+       {
+        "text": "Where is Delhi?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Delhi",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Locate Hyderabad for me",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Now tell me where Mumbai is",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Mumbai ",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Anyone there?",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "ok nice talking to you",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "Tell me where Kandahar is?",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Kandahar",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "That will be all",
+        "intent": "greet_end",
+        "entities": []
+      },
+      {
+        "text": "Hey there I have a query",
+        "intent": "greet_start",
+        "entities": []
+      },
+      {
+        "text": "Help me in locating Sharif",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Sharif",
+            "entity": "city"
+          }
+        ]
+      }
+    ]
+  }
+}

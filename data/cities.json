@@ -1,0 +1,7 @@
+{
+	"Afghanistan": ["Herat", "Kabul", "Kandahar", "Molah", "Rana", "Shar", "Sharif", "Wazir Akbar Khan"],
+	"India": ["Delhi", "Hyderabad", "Chennai", "Bangalore", "Itanagar", "Mumbai", "Jaipur", " Lucknow", "Kolkata", "Gandhinagar"],
+	"Australia": ["Sutherland", "Swan Hill", "Swan View", "Swansea", "Swansea", "Sydenham", "Sydney", "Sylvania", "Sylvania Waters", "Tahmoor"],
+	"Bangladesh": ["Agrabad", "Bangla", "Barisal", "Bazar", "Chittagong", "Comilla", "Delta", "Dhaka", "Hossain", "Jessore", "Kabi", "Kazipur", "Mymensingh", "Narayanganj"],
+	"Germany": ["Berlin", "Berlingerode", "Bermatingen", "Bermbach", "Bermersheim", "Bermuthshain", "Bernau", "Bernau am Chiemsee", "Bernau bei Berlin", "Bernburg", "Berne"]
+}

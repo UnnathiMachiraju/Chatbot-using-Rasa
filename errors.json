@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Anyone there?",
+        "intent": "greet_start",
+        "intent_prediction": {
+            "name": "query",
+            "confidence": 0.7909014617331173
+        }
+    },
+    {
+        "text": "That will be all",
+        "intent": "greet_end",
+        "intent_prediction": {
+            "name": "query",
+            "confidence": 0.9147512879642695
+        }
+    },
+    {
+        "text": "Hey there I have a query",
+        "intent": "greet_start",
+        "intent_prediction": {
+            "name": "query",
+            "confidence": 0.643069711381026
+        }
+    }
+]
