@@ -1,1 +1,28 @@
-A project to identify intents and entities from a given sentence using Rasa NLU
+A basic chatbot built using Rasa-NLU and Rasa-core. The chatbot returns the country in which the city asked by the user is.
+
+Steps to be followed to run the chatbot
+
+1) Run nlu_model.py to train the model , the trained model is saved in models/default
+python3.7 nlu_model.py
+
+2)Evaluating rasa model which gives a confusion matrix to show the misclassified intents
+python3.7 -m rasa_nlu.evaluate --data data/test_data.json --model models/nlu/default/citiesnlu
+
+3) Launch the action server so that the custom action can run on the endpoint
+python3.7 -m rasa_core_sdk.endpoint --actions actions
+
+4)Train dialogue management, this creates the trained dialogue model in models/dialogue
+python3.7 dialogue_management_model.py
+
+5) Run the interactive learning 
+python3.7 train.py
+
+Any error in the rasa core can be debugged using the following command once models/dialogue is available
+python3.7 -m rasa_core.run -d models/dialogue -u models/nlu/default/citiesnlu --endpoints endpoints.yml --debug
+
+References:
+1)Justina Petraityte , Building a chatbot using Rasa-NLU and Rasa-core
+2) Rasa Community , Rasa Documentation
+
+
+
