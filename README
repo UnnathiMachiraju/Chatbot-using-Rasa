@@ -5,7 +5,7 @@ Steps to be followed to run the chatbot
 1) Run nlu_model.py to train the model , the trained model is saved in models/default
 python3.7 nlu_model.py
 
-2)Evaluating rasa model which gives a confusion matrix to show the misclassified intents
+2)Evaluating rasa model which gives a confusion matrix to show the misclassified intents and also gives errors.json
 python3.7 -m rasa_nlu.evaluate --data data/test_data.json --model models/nlu/default/citiesnlu
 
 3) Launch the action server so that the custom action can run on the endpoint
