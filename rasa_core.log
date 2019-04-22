@@ -1,0 +1,149 @@
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/keras/backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'Where can I find Berlin?' with intent '{'name': 'query', 'confidence': 0.8689154259083334}' and entities '[{'start': 17, 'end': 23, 'value': 'berlin', 'entity': 'city', 'confidence': 0.8180160093701397, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 3 events
+Current slot values: 
+	city: berlin
+Current tracker state [None, None, None, {}, {'slot_city_0': 1.0, 'prev_action_listen': 1.0, 'intent_query': 1.0, 'entity_city': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.27.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/keras/backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'Where can I find Berlin?' with intent '{'name': 'query', 'confidence': 0.8689154259083334}' and entities '[{'start': 17, 'end': 23, 'value': 'berlin', 'entity': 'city', 'confidence': 0.8180160093701397, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 3 events
+Current slot values: 
+	city: berlin
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'entity_city': 1.0, 'slot_city_0': 1.0, 'intent_query': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.27.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/keras/backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/unnathimachiraju/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'Where is Delhi?' with intent '{'name': 'query', 'confidence': 0.9349808530731144}' and entities '[{'start': 9, 'end': 14, 'value': 'delhi', 'entity': 'city', 'confidence': 0.8883120799608671, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 3 events
+Current slot values: 
+	city: delhi
+Current tracker state [None, None, None, {}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_city' with prob 0.26.
+Calling action endpoint to run action 'action_city'.
+Action 'action_city' ended with events '['SlotSet(key: city, value: delhi)']'
+Action 'action_city' set a slot type 'city' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"city": "delhi"}' after the action.
+Bot utterance 'BotUttered(text: delhi, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: This city is in India, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.60.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Where can I locate Hyderabad?' with intent '{'name': 'query', 'confidence': 0.8781720980968969}' and entities '[{'start': 19, 'end': 28, 'value': 'hyderabad', 'entity': 'city', 'confidence': 0.6119183422809437, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	city: hyderabad
+Current tracker state [None, {}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_city' with prob 0.32.
+Calling action endpoint to run action 'action_city'.
+Action 'action_city' ended with events '['SlotSet(key: city, value: hyderabad)']'
+Action 'action_city' set a slot type 'city' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"city": "hyderabad"}' after the action.
+Bot utterance 'BotUttered(text: hyderabad, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: This city is in India, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.68.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Now tell me where bangla is' with intent '{'name': 'query', 'confidence': 0.8263045182640505}' and entities '[{'start': 18, 'end': 24, 'value': 'bangla', 'entity': 'city', 'confidence': 0.9953194524461635, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 17 events
+Current slot values: 
+	city: bangla
+Current tracker state [{'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_city' with prob 0.32.
+Calling action endpoint to run action 'action_city'.
+Action 'action_city' ended with events '['SlotSet(key: city, value: bangla)']'
+Action 'action_city' set a slot type 'city' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"city": "bangla"}' after the action.
+Bot utterance 'BotUttered(text: bangla, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: This city is in Bangladesh, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_listen': 1.0}, {'slot_city_0': 1.0, 'entity_city': 1.0, 'intent_query': 1.0, 'prev_action_city': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.68.
+Action 'action_listen' ended with events '[]'

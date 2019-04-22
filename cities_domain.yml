@@ -1,0 +1,25 @@
+slots:
+    city:
+        type: text
+
+intents:
+ - greet_start
+ - greet_end
+ - query
+
+
+entities:
+ - city
+
+templates:
+  utter_greet:
+    - 'Hi! How can I help you?'
+  utter_goodbye:
+    - 'Thanks for reaching out.Bye'
+    - 'Bye Bye'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - action_city

@@ -1,0 +1,32 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_goodbye];
+2 [class="", fontsize=12, label=action_city];
+"-4" [class=ellipsis, label="..."];
+3 [class=active, fontsize=12, label=utter_greet];
+4 [class="", fontsize=12, label=action_city];
+"-5" [class=ellipsis, label="..."];
+8 [class="intent dashed active", label="{'entities': [{'confidence': 0.8883120799608671, 'end': 14, 'entity': 'city', 'extractor': 'ner_crf', 'start': 9, 'value': 'delhi'}], 'intent': {'confidence': 0.9349808530731144, 'name': 'query'}, 'intent_ranking': [{'confidence': 0.9349808530731144, 'name': 'query'}, {'confidence': 0.03448223638215687, 'name': 'greet_end'}, {'confidence': 0.03053691054472859, 'name': 'greet_start'}], 'text': 'Where is Delhi?'}", shape=rect];
+9 [class=intent, fillcolor=lightblue, label=greet_end, shape=rect, style=filled];
+10 [class=intent, fillcolor=lightblue, label=query, shape=rect, style=filled];
+11 [class="intent active", fillcolor=lightblue, label="Hello there", shape=rect, style=filled];
+12 [class=intent, fillcolor=lightblue, label=query, shape=rect, style=filled];
+13 [class="intent active", fillcolor=lightblue, label="Where is Delhi", shape=rect, style=filled];
+14 [class=intent, fillcolor=lightblue, label=greet_end, shape=rect, style=filled];
+0 -> 9  [class="", key=0];
+0 -> 10  [class="", key=0];
+0 -> 11  [class=active, key=0];
+1 -> "-5"  [class="", key=NONE, label=""];
+2 -> "-4"  [class="", key=NONE, label=""];
+3 -> "-1"  [class="", key=NONE, label=""];
+3 -> 12  [class="", key=0];
+3 -> 13  [class=active, key=0];
+4 -> 14  [class="", key=0];
+9 -> 1  [class="", key=0];
+10 -> 2  [class="", key=0];
+11 -> 3  [class=active, key=0];
+12 -> 4  [class="", key=0];
+13 -> 8  [class=active, key=0];
+14 -> 1  [class="", key=0];
+}

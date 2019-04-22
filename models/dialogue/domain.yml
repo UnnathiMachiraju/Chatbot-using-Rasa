@@ -1,0 +1,29 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- action_city
+config:
+  store_entities_as_slots: true
+entities:
+- city
+forms: []
+intents:
+- greet_start:
+    use_entities: true
+- greet_end:
+    use_entities: true
+- query:
+    use_entities: true
+slots:
+  city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Thanks for reaching out.Bye
+  - text: Bye Bye
+  utter_greet:
+  - text: Hi! How can I help you?
