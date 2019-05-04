@@ -298,6 +298,12 @@
           }
         ]
       }
-    ]
+    ],
+    "lookup_tables":[
+      {
+        "name" : "cities"
+        "elements" : "data/lookup_tables/cities.txt"
+      }
+      ]
   }
 }
